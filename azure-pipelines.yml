@@ -25,6 +25,7 @@ steps:
     inline: |
       yo=`whoami`
       echo $yo
+      echo azureuser
       ls
       cd Python
       git fetch
