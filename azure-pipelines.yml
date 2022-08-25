@@ -23,7 +23,8 @@ steps:
     sshEndpoint: 'rwotest'
     runOptions: 'inline'
     inline: |
-      whoami
+      yo=`whoami`
+      echo $yo
       ls
       cd Python
       git fetch
