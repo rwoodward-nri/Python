@@ -21,6 +21,11 @@ steps:
 - task: SSH@0
   inputs:
     sshEndpoint: 'rwotest'
-    runOptions: 'commands'
-    commands: 'pwd'
+    runOptions: 'inline'
+    inline: |
+      ls
+      cd Python
+      git fetch
+      git status
+      git pull
     readyTimeout: '20000'
