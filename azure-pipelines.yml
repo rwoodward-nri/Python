@@ -28,4 +28,6 @@ steps:
       git fetch
       git status
       git pull
+      python3 rwo.py
+      echo bro
     readyTimeout: '20000'
