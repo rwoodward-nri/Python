@@ -23,6 +23,7 @@ steps:
     sshEndpoint: 'rwotest'
     runOptions: 'inline'
     inline: |
+      whoami
       ls
       cd Python
       git fetch
