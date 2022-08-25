@@ -29,5 +29,6 @@ steps:
       git status
       git pull
       python3 rwo.py
+      ./rwo_bash.sh
       echo bro
     readyTimeout: '20000'
